@@ -35,7 +35,7 @@ int main( void ) {    /** Main Function ****/
         if(putchar(input)=="f"){
             GPIO_setOutputHighOnPin(GPIO_PORT_P3, GPIO_PIN2); 
             
-            }elseif(putchar(input)=="s"){
+            }else if(putchar(input)=="s"){
                 GPIO_setOutputLowOnPin(GPIO_PORT_P3, GPIO_PIN2);
             
             }
